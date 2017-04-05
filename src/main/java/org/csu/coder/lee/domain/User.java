@@ -15,6 +15,7 @@ public class User {
     @Id
     @GeneratedValue
     private Integer id;
+
     private String username;
     private String password;
 

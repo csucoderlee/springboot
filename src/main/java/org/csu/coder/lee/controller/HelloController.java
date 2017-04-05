@@ -19,7 +19,7 @@ public class HelloController {
     }
 
     @PostMapping(value = "postHello")
-    public String postHell(String helloStr){
+    public String postHello(String helloStr){
         return "接收到的post请求参数的内容：" + helloStr;
     }
 
