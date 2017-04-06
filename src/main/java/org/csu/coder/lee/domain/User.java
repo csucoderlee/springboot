@@ -1,9 +1,7 @@
 package org.csu.coder.lee.domain;
 
-import org.springframework.data.annotation.Id;
-
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
 
 /**
  * Created by csucoderlee on 2017 04 03 下午10:16.
@@ -13,7 +11,6 @@ import javax.persistence.GeneratedValue;
 public class User {
 
     @Id
-    @GeneratedValue
     private Integer id;
 
     private String username;
